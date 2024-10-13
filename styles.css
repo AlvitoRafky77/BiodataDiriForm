@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn {
+    background: linear-gradient(90deg, #06beb6 0%, #48b1bf 100%);
+    border: none;
+}
+
+.input-group-text {
+    background-color: #007bff;
+    border: none;
+}
+
+.form-control {
+    border-radius: 0 0.375rem 0.375rem 0;
+    border-left: none;
+}
+
+textarea.form-control {
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: #d1d1d1;
+    opacity: 1;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
